@@ -14,7 +14,14 @@ header {
     padding: 1rem 0;
     text-align: center;
 }
-
+#introduction {
+    text-align: center; /* Center the text horizontally */
+    margin: 0 auto; /* Center the section horizontally */
+    max-width: 800px; /* Optional: Limit the width of the paragraph */
+    padding: 20px; /* Optional: Add some padding around the text */
+    line-height: 1.8;
+    font-size: 17.9px;
+}
 nav ul {
     list-style: none;
     padding: 0;
