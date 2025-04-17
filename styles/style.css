@@ -22,6 +22,14 @@ header {
     line-height: 1.8;
     font-size: 17.9px;
 }
+#historical {
+    text-align: center; /* Center the text horizontally */
+    margin: 0 auto; /* Center the section horizontally */
+    max-width: 800px; /* Optional: Limit the width of the paragraph */
+    padding: 20px; /* Optional: Add some padding around the text */
+    line-height: 1.8;
+    font-size: 17.9px;
+}
 nav ul {
     list-style: none;
     padding: 0;
@@ -44,7 +52,10 @@ main {
 section {
     margin-bottom: 2rem;
 }
-
+html, body {
+    height: 125%; /* Ensure the body takes up the full height of the viewport */
+    overflow-y: auto; /* Allow vertical scrolling */
+}
 footer {
     background-color: #333;
     color: #fff;
