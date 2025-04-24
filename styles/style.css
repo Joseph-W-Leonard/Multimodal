@@ -53,7 +53,7 @@ section {
     margin-bottom: 2rem;
 }
 html, body {
-    height: 125%; /* Ensure the body takes up the full height of the viewport */
+    height: 100%; /* Ensure the body takes up the full height of the viewport */
     overflow-y: auto; /* Allow vertical scrolling */
 }
 footer {
@@ -64,4 +64,8 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+body {
+    padding-bottom: 3rem; /* Add padding equal to the footer height */
 }
